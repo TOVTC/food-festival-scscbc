@@ -56,7 +56,7 @@ self.addEventListener('fetch', function(e) {
                 return fetch(e.request)
             }
             // you can omit if/else for console.log & put one line beow like this too
-            // requtrn request || fetch(e.request)
+            // return request || fetch(e.request)
         })
     )
 })
